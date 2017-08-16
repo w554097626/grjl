@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>孙茁的个人简历</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="zhongjian">
+ <div class="left">
+  <div class="box">
+    <div class="img img8"><img src="images/img1.png" alt=""></div>
+    <div class="txt txt8"><span class="s1">把工作的每一天</span><br><span class="s2">都看做毕业的第一天</span></div>
+  </div>
+  <p class="xingming">孙茁</p>
+  <p class="yingpin">Web前端/美工</p>
+  <div class="zhifeiji"><img src="images/zhifeiji.png"></div>
+	</div>
+	<div class="right">
+	<div id="tabs">
+	<ul>
+		<li class="active">基本信息</li>
+		<li>专业技能</li>
+		<li>项目经验</li>
+		<li>联系方式</li>
+	</ul>
+	<div id="contents">
+		<div class="show">
+			<p class="dizhi"><span>毕业学校：</span>河北软件职业技术学院</p>
+			<p class="xueli"><span>学历：</span>专科</p>
+			<p class="zhuanye"><span>专业：</span>网页制作</p>
+			<p class="huoderongyu"><span>获得荣誉：</span>
+			>2016年拿到国家励志奖学金</p>
+			<p class="huoderongyu1">>“风采之星”活动评选中评为领航之星
+			> 担任2016年新生军训助教获得优秀教官</p>
+			<p class="huoderongyu2">> 系学生会社团部部长
+			> 拿到数据库应用系统工程师证书</p>
+			<p class="huoderongyu3">> PPT演讲比赛三等奖
+			> 校内社团Vane微博协会社长</p>
+			<p class="huoderongyu">
+				> 班级里担任学习委员>倬威达网页设计大赛贰等奖
+			</p>
+			<p class="gerenjianjie"><span>个人简介：</span>从学习一直做我喜欢的设计，可以说现在是更为全面学习的时候，每一天我都很开心，有我喜欢的工作和生活。专业素质基础扎实、性格开朗善于沟通。任平面设计、网站设计、能够根据公司和客户的要求完成设计制作，熟练掌握Photoshop、html5，css、jquery、JavaScript、Ajaax能够高效率地完成工作。认真踏实负责，做事有计划，有团队合作精神。</p>
+		</div>
+		<div class="jibenxinxi">
+		<p class="jinengone"><span>Photoshop</span></p>
+		<p class="jinengtwo"><span>Html</span></p>
+		<p class="jinengwu"><span>JavaScript</span></p>
+		<p class="jinengsan"><span>Css</span></p>
+		<p class="jinengsi"><span>Phpcms</span></p>
+
+		</div>
+	<div class="xiangmujingyan">
+		<i><a href="http://bxu2442280218.my3w.com" target=_blank><img src="images/gcjjbj.png"></a></i>
+		<i><a href="https://w554097626.github.io/demo/" target=_blank><img src="images/heji.png"></a></i>
+		<i><a href="https://w554097626.github.io/pangu/" target=_blank><img src="images/pangu.png"></a></i>
+		<i><a href="https://w554097626.github.io/qiye/" target=_blank><img src="images/qiyezaixian.png"></a></i>
+		<i><a href="https://w554097626.github.io/exam/" target=_blank><img src="images/xiangyingshi.png"></a></i>
+		<i><a href="https://w554097626.github.io/qingdao" target=_blank><img src="images/yuanyang.png"></a></i>
+	</div>
+		<div class="lianxifangshi">
+			<p><span class="xm">孙茁</span></p>
+			<p><span>联系方式：</span>15503226667</p>
+			<p><span>电子邮箱：</span>554097626@qq.com</p>
+			<p><span>微信：</span>15503226667</p>
+			<p><span>QQ：</span>554097626</p>
+			<p><span>现居地址：</span>河北省保定市河北软件职业技术学院</p>
+		</div>
+	</div>
+</div>
+	</div>
+	<script src="js/jquery.min.js"></script>
+	<script>
+		$('#tabs li').click(function(){
+			$(this).addClass('active').siblings().removeClass('active');
+			$('#contents div').eq($(this).index()).addClass('show').siblings().removeClass('show');
+		});
+	</script>
+</body>
+</html>

@@ -135,7 +135,7 @@ body{
 	font-size: 18px;
 	font-family: "微软雅黑";
 	font-weight: bold;
-	width: 160px;
+	width: 130px;
 	float: left;
 	text-align: center;
 	line-height: 40px;
@@ -193,4 +193,11 @@ body{
 }
 .lianxifangshi .xm{
 	font-size: 30px;
+}
+.gongzuojingli #shijian
+{
+	font-size: 15px;
+}
+.gongzuojingli span{
+	font-weight: bold;
 }
